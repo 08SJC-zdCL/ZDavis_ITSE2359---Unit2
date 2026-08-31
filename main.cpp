@@ -6,6 +6,7 @@ int main() {
     const double BONUS = 1.10;
 
     string player;
+    string rank;
     int games;
     double score = 0;
     double total = 0;
@@ -25,7 +26,6 @@ int main() {
     double average = total / games;
     double totalbonus = total * BONUS;
 
-    string rank;
     if (average >= 90) {rank = "Elite";}
     else if (average >= 75) {rank = "Advanced";}
     else if (average >= 60) {rank = "Intermediate";}
